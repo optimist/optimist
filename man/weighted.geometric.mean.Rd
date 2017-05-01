@@ -19,7 +19,7 @@ the default value is FALSE.}
 Compute a weighted geometric mean.
 }
 \details{
-See weighted.mean \{stats\} or geometric.mean 
+See weighted.mean \{stats\} or geometric.mean
 \{psych\}.
 }
 

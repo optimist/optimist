@@ -7,26 +7,26 @@
 load.packages(pkgs, repos = "http://cran.itam.mx")
 }
 \arguments{
-\item{pkgs}{Character array containing names of 
+\item{pkgs}{Character array containing names of
 packages.}
 
-\item{repos}{character indicating the URL of a CRAN 
+\item{repos}{character indicating the URL of a CRAN
 mirror. http://cran.itam.mx is the default value.}
 }
 \description{
-The load.packages function loads a 
+The load.packages function loads a
 list of packages.
 }
 \details{
 The function will try to load each package.
 
-If it fails, the function will proceed to install 
+If it fails, the function will proceed to install
 along with its dependecies.
 
 Newly installed packages will be loaded as well.
 
-Two lists are printed: the list of packages that 
-could be loaded and the list of packages that failed 
+Two lists are printed: the list of packages that
+could be loaded and the list of packages that failed
 to be installed.
 
 sessionInfo() is called at the end of the function.

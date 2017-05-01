@@ -7,21 +7,21 @@
 strspl(x, split = ",")
 }
 \arguments{
-\item{x}{character vector, each element of which 
-is to be split. Other inputs, including a factor, 
+\item{x}{character vector, each element of which
+is to be split. Other inputs, including a factor,
 will give an error.}
 
-\item{split}{character vector containing regular 
-expressions to use for splitting. If empty matches 
-occur, in particular if \code{split} has length 0, 
-\code{x} is split into single characters. If 
-\code{split} has length greater that 1, it is 
+\item{split}{character vector containing regular
+expressions to use for splitting. If empty matches
+occur, in particular if \code{split} has length 0,
+\code{x} is split into single characters. If
+\code{split} has length greater that 1, it is
 re-cycled along. Default value is ','.}
 }
 \description{
-Split the elements of a character 
-vector \code{x} into substrings according to the 
-matches to substring \code{split} within them. A 
+Split the elements of a character
+vector \code{x} into substrings according to the
+matches to substring \code{split} within them. A
 character vector is returned. Blank spaces, tabs
 and line breaks are removed.
 }

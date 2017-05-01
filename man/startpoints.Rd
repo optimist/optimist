@@ -9,14 +9,14 @@ startpoints(x, on = "months", k = 1)
 \arguments{
 \item{x}{an xts object.}
 
-\item{on}{the periods starpoints to find as a 
+\item{on}{the periods starpoints to find as a
 character string.}
 
 \item{k}{along every k-th element.}
 }
 \description{
-Extract index values of a given 
-\code{xts} object corresponding to the first 
+Extract index values of a given
+\code{xts} object corresponding to the first
 observation given a period specified by \code{on}.
 }
 \details{
